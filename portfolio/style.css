@@ -1,20 +1,66 @@
+/**{
+    margin: 1%;
+    padding: 1%;
+}*/
 
 body {
-    background-color: grey;
-    text-align: center;
+    color: black;
+    background-image: url(./img/img-trybe2.jpg);
+    background-repeat: no-repeat;
+    background-position:top right ;
+       
+    
 }
 
 h1 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 50px;
+    
+    text-align: center;
+    padding: 0%;
+    margin-top: 0%;
+    margin-left: 40%;
+    z-index: 2;
+}
+
+.img-container{
+    position: absolute;
+
+    margin-top: 1%;
+    margin-left: 2%;
+
+    z-index: 5;
+}
+
+.img-perfil{
+    border-radius: 25%;
+    box-shadow: 20px 10px 40px black;
+
+}
+
+.info-container{
+    position: absolute;
+    margin-top: 1%;
+    margin-left: 50%;
+    padding: 1px;
+    text-align: center;
+
+    z-index: 2;
+}
+
+.links-container{
+    position: absolute;
+
+    margin-left: 2%;
+    margin-top: 36%;
+    
+    z-index: 6;
 }
 
 .descrition {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-.born, .city{
-    color:antiquewhite ;
-}
 
 .sub-title{
     font-size: 3vw;
